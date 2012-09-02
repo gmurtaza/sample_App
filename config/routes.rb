@@ -1,5 +1,4 @@
 SampleApp::Application.routes.draw do
-  match '/', to: 'static_pages#home'
   root to: 'static_pages#home'
 
   match '/help',    to: 'static_pages#help'
